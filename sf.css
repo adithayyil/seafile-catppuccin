@@ -1,34 +1,34 @@
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-bg: #282c34;
-    --dark-bg: #21252b;
-    --light-bg: #333842;
+    --main-bg: rgb(30, 30, 46);
+    --dark-bg: rgb(24, 24, 37);
+    --light-bg:rgb(49, 50, 68);
 
-    --main-font: #ababab;
-    --light-font: #eee;
-    --dark-font: #888;
+    --main-font: rgb(205, 214, 244);
+    --light-font: rgb(186, 194, 222);
+    --dark-font: rgb(108, 112, 134);
 
-    --main-theme: #7f6cb7;
-    --theme-font: #7f6cb7;
+    --main-theme: rgb(203, 166, 247);
+    --theme-font: rgb(203, 166, 247);
 
-    --border: rgba(34, 34, 34, 0.9);
-    --shadow: rgba(10, 10, 10, 0.8);
-    --no-shadow: rgba(0, 0, 0, 0);
-    --green: #326732;
-    --info: #676732;
-    --error: #673f32;
+    --border: rgb(49, 50, 68);
+    --shadow: rgb(24, 24, 37);
+    --no-shadow: rgb(17, 17, 27);
+    --green: rgb(166, 227, 161);
+    --info: rgb(148, 226, 213);
+    --error: rgb(243, 139, 168);
   }
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --main-bg: #fff;
-    --dark-bg: rgb(203, 223, 233);
+    --dark-bg: rgb(30, 30, 46);
     --light-bg: rgb(241, 250, 255);
 
     --main-font: #404650;
     --light-font: #1a1a1a;
-    --dark-font: #535d68;
+    --dark-font: rgb(205, 214, 244);
 
     --main-theme: rgb(190, 213, 255);
     --theme-font: rgb(92, 113, 153);
@@ -36,9 +36,9 @@
     --border: rgba(230, 230, 230, 0.6);
     --shadow: rgba(0, 0, 0, 0.3);
     --no-shadow: rgba(0, 0, 0, 0);
-    --green: #326732;
-    --info: #676732;
-    --error: #673f32;
+    --green: rgb(166, 227, 161);
+    --info: rgb(148, 226, 213);
+    --error: rgb(243, 139, 168);
   }
 }
 
@@ -1034,7 +1034,7 @@ button:hover,
 *****************/
 
 .file-view-content {
-  background: var(--light-bg);
+  background: var(--main-bg);
   border-bottom: 1px solid var(--border);
 }
 
@@ -1615,7 +1615,7 @@ textarea {
 }
 
 .shared-file-view-body {
-  background: var(--light-bg);
+  background: var(--main-bg);
   border: 1px solid var(--border);
 }
 
@@ -1815,4 +1815,10 @@ pre {
 
 .css-1tlqf55 {
   color: var(--main-font) !important;
+}
+
+.vjs-big-play-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
