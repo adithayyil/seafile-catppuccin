@@ -1,4 +1,4 @@
-# Seafile Purple
+# Seafile Catppuccin Theme
 
 ## Information
 
@@ -6,4 +6,4 @@ Tweaked version of [seafile_ce-edition_custom_theme](https://github.com/udlch/se
 
 # Demo
 
-![Getting Started](ss/home-demo.png)
+![Getting Started](https://adi-visual.nyc3.digitaloceanspaces.com/images/screenshots/2024-05-15-22:03:59-7d5bf3b2761b42e5bd1cf4c4c7624579.png)
